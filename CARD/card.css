@@ -1,0 +1,54 @@
+@import url(/ESTILO_GLOBAL.CSS);
+
+
+.contenedor__card{
+    margin: var(--centrar);
+    width: 350px;
+    height: 400px;
+    background-color: rgb(81, 81, 219);
+    text-align:  var(--centro);
+    display: flex; 
+    flex-direction: column; 
+    align-items: var(--centro); 
+    justify-content: var(--centro); 
+}
+
+.card__imagen{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.card__cuerpo{
+    text-align: var(--centro);
+    background-color: rgb(219, 65, 65);
+}
+
+.card__imagen--borde{
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__titulo--mayuscula{
+    font-size: 24px; 
+    color: var(--blanco); 
+    text-transform: uppercase;
+}
+
+.card__texto--espacio{
+    font-size: 16px; 
+    color: var(--azul); 
+    line-height: 1.5;
+}
+
+.card__boton--modificador{
+    background-color: #007bff; 
+    color: var(--blanco); 
+    border:  var(--ninguno); 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: var(--pointer);
+    margin-top: var(--px20);
+    text-decoration: var(--ninguno);
+}
+

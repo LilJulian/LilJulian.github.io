@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <title>Modal</title>
+</head>
+<body>
+  <a class="indice" href="/index.html">Volver al directorio</a>
+  
+  <input type="checkbox" id="modal-checkbox-primary" />
+  <label for="modal-checkbox-primary" class="boton-modal boton-modal--primary">Abrir modal 1</label>
+
+  <div class="modal__container">
+    <div class="modal__contenido modal__contenido--success">
+      <h2 class="modal__contenido-titulo">Título del modal 1</h2>
+      <p class="modal__contenido-texto">Este es el contenido del modal 1.</p>
+      <label for="modal-checkbox-primary" class="boton__cerrar boton__cerrar--primary">Cerrar</label>
+    </div>
+  </div>
+
+  <input type="checkbox" id="modal-checkbox-warning"/>
+  <label for="modal-checkbox-warning" class="boton-modal boton-modal--warning">Abrir modal 2</label>
+
+  <div class="modal__container">
+    <div class="modal__contenido modal__contenido--warning">
+      <h2 class="modal__contenido-titulo">Título del modal 2</h2>
+      <p class="modal__contenido-texto">Este es el contenido del modal 2.</p>
+      <label for="modal-checkbox-warning" class="boton__cerrar boton__cerrar--warning">Cerrar</label>
+    </div>
+  </div>
+
+  <input type="checkbox" id="modal-checkbox-info"/>
+  <label for="modal-checkbox-info" class="boton-modal boton-modal--info">Abrir modal 3</label>
+
+  <div class="modal__container">
+    <div class="modal__contenido modal__contenido--info">
+      <h2 class="modal__contenido-titulo">Título del modal 3</h2>
+      <p class="modal__contenido-texto">Este es el contenido del modal 3.</p>
+      <label for="modal-checkbox-info" class="boton__cerrar boton__cerrar--info">Cerrar</label>
+    </div>
+  </div>
+
+  <input type="checkbox" id="modal-checkbox-danger"/>
+  <label for="modal-checkbox-danger" class="boton-modal boton-modal--danger">Abrir modal 4</label>
+
+  <div class="modal__container">
+    <div class="modal__contenido modal__contenido--danger">
+      <h2 class="modal__contenido-titulo">Título del modal 4</h2>
+      <p class="modal__contenido-texto">Este es el contenido del modal 4.</p>
+      <label for="modal-checkbox-danger" class="boton__cerrar boton__cerrar--danger">Cerrar</label>
+    </div>
+  </div>
+</body>
+</html>

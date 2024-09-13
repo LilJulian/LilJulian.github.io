@@ -1,0 +1,51 @@
+@import url(/ESTILO_GLOBAL.CSS);
+
+.contenedor-principal {
+    position: relative;
+    overflow-y: auto;
+    height: 300px; 
+}
+  
+.elemento {
+    padding: var(--px20);
+    border-bottom: 1px solid #ccc;
+}
+  
+.elemento--activo {
+    background-color: var(blanco);
+    border-bottom: 2px solid #333;
+}
+
+.elemento--activo:hover{
+    background-color: greenyellow;
+}
+  
+.elemento--colores {
+    background-color: #941212;
+    border-left: 4px solid #d44747;
+    color: var(--blanco);
+}
+  
+.elemento--final {
+    background-color: var(--blanco);
+    border-right: 4px solid #999;
+}
+
+.elemento--texto{
+    font-family: cursive;
+}
+
+.contenedor-principal::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+.contenedor-principal::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 10px;
+}
+  
+.contenedor-principal::-webkit-scrollbar-track {
+    background-color: var(--blanco);
+    border-radius: 10px;
+}

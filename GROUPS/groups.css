@@ -1,0 +1,59 @@
+@import url(/ESTILO_GLOBAL.CSS);
+
+.grupo {
+  background-color: #f0f0f0;
+  padding: var(--px20);
+  margin-bottom: var(--px20);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.grupo__titulo {
+  margin-top: 0;
+}
+
+.grupo__lista {
+  list-style: var(--ninguno);
+  padding: 0;
+  margin: 0;
+}
+
+.grupo__item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.grupo__item:last-child {
+  border-bottom: nonvar(--ninguno)e;
+}
+
+.grupo_hover {
+  background-color: var(--verde);
+}
+
+.grupo_hover:hover {
+  background-color: var(--blanco);
+}
+
+.grupo_grande {
+  background-color: blueviolet;
+  transition: transform 0.3s ease;
+  cursor: var(--pointer);
+}
+
+.grupo_grande:hover {
+  transform: scale(1.1);
+}
+
+.grupo_bloqueado {
+  background-color: skyblue;
+  cursor: not-allowed;
+  transition: transform 0.3s ease;
+}
+
+.grupo_bloqueado:hover {
+  transform: scale(0.8);
+  background-color: var(--rojo);
+}

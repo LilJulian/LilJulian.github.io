@@ -1,0 +1,68 @@
+@import url(/ESTILO_GLOBAL.CSS);
+
+.contenedor{
+    margin: var(--centrar);
+    width: 500px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.dropdown__selector{
+    background-color: var(--verde);
+    color: var(--blanco);
+    padding: 10px var(--px20);
+    border: var(--ninguno);
+    border-radius: 5px;
+    cursor: var(--pointer);
+    margin-bottom: 5px;
+}
+
+.dropdown__selector:hover {
+    background-color: #3e8e41;
+  }
+
+.dropdown__lista {
+    display:  var(--ninguno);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--blanco);
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.dropdown__selector:focus + .dropdown__lista {
+    display: block;
+}
+
+.dropdown__lista:active {
+    display: block;
+}
+
+.dropdown__selector--imagen{
+    border: 2px solid black;
+    background-color: var(--azul);
+}
+
+.dropdown__selector--letra{
+    text-decoration:  var(--ninguno);
+    color: var(--blanco);
+    font-weight: var(--bold);
+    font-family: cursive;
+}
+
+.dropdown__selector--color{
+    background-color: aquamarine;
+    color: brown;
+}
+
+.dropdown__selector--color :hover{
+    background-color: brown;
+    color: aquamarine;
+}
+
+.dropdown__selector--tamaño{
+    width: 100px;
+    height: 100px;
+}

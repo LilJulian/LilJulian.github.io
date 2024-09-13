@@ -1,0 +1,59 @@
+@import url(/ESTILO_GLOBAL.CSS);
+
+.botones__contenedor{
+    background-color: aqua;
+    margin: var(--centrar);
+    margin-top: 200px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    padding: var(--px20);
+    
+}
+
+.botones__boton{
+    font-size: 19px;
+    margin: 10px;
+    text-decoration: var(--ninguno);
+    border-radius: 5px;
+    
+}
+
+.botones__boton--color{
+    height: 50px;
+    background-color: brown;
+    color: var(--blanco);
+    border: 3px solid green;
+    cursor: var(--pointer);
+    display: flex;
+    justify-content: var(--centro);
+    align-items: var(--centro) ;
+}
+
+.botones__boton--hover:hover{
+    background-color: black;
+    color: var(--blanco);
+    height: 50px;
+    width: 100px;
+    border: solid 2px var(--blanco);
+}
+
+.botones__boton--sombra{
+    box-shadow: inset 0 0 30px rgba(255, 165, 0, 0.8),
+    inset 0 0 50px rgba(255, 255, 255, 0.5)
+    ;
+}
+
+.botones__boton--cuarto{
+    background-color: #4CAF50;
+    color: var(--blanco);
+    border: var(--ninguno);
+    padding: 10px var(--px20);
+    font-size: 16px;
+    cursor: var(--pointer);
+    perspective: 1000px;
+}
+
+.botones__boton--cuarto:hover{
+    transform: rotateY(180deg);
+}

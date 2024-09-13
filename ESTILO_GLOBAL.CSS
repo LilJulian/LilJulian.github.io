@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bold: bold;
+    --pointer: pointer;
+    --px20: 20px;
+    --centrar: 0 auto;
+    --centro: center;
+    --rojo: red;
+    --blanco: white;
+    --azul: blue;
+    --verde: green;
+    --ninguno: none;
+}
+
+.indice{
+    text-decoration: var(--ninguno);
+    color: var(--rojo);
+    background-color: pink;
+    font-weight: var(--bold);
+}
