@@ -20,7 +20,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    animation: spin 5s linear infinite;
+    animation: spin 5s  infinite;
 }
   
 @keyframes spin {
@@ -37,7 +37,7 @@
     height: 40px;
     background-color: #333;
     margin: 0 5px;
-    animation: spin-bar 2s linear infinite;
+    animation: spin-bar 2s  infinite;
 }
   
 @keyframes spin-bar {
@@ -55,7 +55,7 @@
     background-color: #333;
     border-radius: 50%;
     margin: 0 5px;
-    animation: spin-dot 2s linear infinite;
+    animation: spin-dot 2s  infinite;
 }
   
 @keyframes spin-dot {
@@ -73,7 +73,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    animation: spin-ring 2s linear infinite;
+    animation: spin-ring 2s  infinite;
 }
   
 @keyframes spin-ring {
